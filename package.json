@@ -1,0 +1,21 @@
+{
+  "name": "xshape-ts",
+  "version": "0.0.1",
+  "author": "Michał Sieczkowski <michal@ethworks.io>",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha",
+    "clean": "rimraf dist",
+    "prebuild": "yarn clean"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.19",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
